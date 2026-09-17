@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ronaldo Football Quiz</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Animated footballs -->
+  <div class="football ball1">⚽</div>
+  <div class="football ball2">⚽</div>
+
+  <main class="game">
+
+    <!-- Quiz Section -->
+    <section id="quiz">
+
+      <div class="header">
+        <div class="player">⚽</div>
+
+        <h1>RONALDO QUIZ</h1>
+        <p>Football Challenge</p>
+      </div>
+
+      <div class="top-bar">
+        <span id="questionNumber">
+          Question 1/10
+        </span>
+
+        <span id="score">
+          Score: 0
+        </span>
+      </div>
+
+      <div class="progress">
+        <div
+          class="progress-bar"
+          id="progressBar">
+        </div>
+      </div>
+
+      <div
+        class="question"
+        id="question">
+        Loading question...
+      </div>
+
+      <div
+        class="answers"
+        id="answers">
+      </div>
+
+      <button
+        class="next-btn"
+        id="nextBtn">
+        Next Question →
+      </button>
+
+    </section>
+
+    <!-- Result Section -->
+    <section
+      class="result"
+      id="result">
+
+      <div class="celebrate">
+        🏆⚽
+      </div>
+
+      <h2>FULL TIME!</h2>
+
+      <p>Your final score:</p>
+
+      <div
+        class="score"
+        id="finalScore">
+        0/10
+      </div>
+
+      <div
+        class="rank"
+        id="rank">
+        Football Fan
+      </div>
+
+      <button
+        class="restart-btn"
+        id="restartBtn">
+        🔄 Play Again
+      </button>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
